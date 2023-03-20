@@ -1,8 +1,8 @@
 import express from "express";
 import bodyParser from "body-parser";
-import cors from "cors";
+import cors from "cors"; //handling resources on different domains
 import dotenv from "dotenv";
-import helmet from "helmet";
+import helmet from "helmet";  //helmet
 import morgan from "morgan";
 
 //importing the routes
